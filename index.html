@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>મુરલીધર ટ્રાવેલ્સ - ડિજિટલ કાર્ડ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #1e1e24, #2a2a35);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            color: #ffffff;
+        }
+        .card-container {
+            background: #ffffff;
+            color: #333333;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+            position: relative;
+        }
+        .header-bg {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            padding: 30px 20px;
+            text-align: center;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+        .god-blessing {
+            color: #f1c40f;
+            font-size: 14px;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .brand-name {
+            color: #ffffff;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .tagline {
+            color: #bdc3c7;
+            font-size: 12px;
+            font-style: italic;
+        }
+        .owner-info {
+            text-align: center;
+            margin-top: -20px;
+            padding: 0 20px;
+        }
+        .avatar-box {
+            background: #ffffff;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 auto 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            font-size: 35px;
+        }
+        .owner-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .designation {
+            font-size: 13px;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+        .car-badge {
+            background: #f8f9fa;
+            border: 1px solid #e2e8f0;
+            padding: 12px;
+            border-radius: 12px;
+            margin: 15px 20px;
+            text-align: center;
+        }
+        .car-name {
+            font-weight: bold;
+            color: #1e293b;
+            font-size: 15px;
+        }
+        .car-desc {
+            font-size: 12px;
+            color: #64748b;
+            margin-top: 4px;
+        }
+        .services-section {
+            padding: 10px 20px;
+        }
+        .services-title {
+            font-size: 16px;
+            color: #0f2027;
+            border-bottom: 2px solid #2c5364;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+        .service-list {
+            list-style: none;
+        }
+        .service-item {
+            font-size: 14px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            color: #475569;
+        }
+        .service-icon {
+            margin-right: 10px;
+            font-size: 16px;
+        }
+        .action-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            padding: 20px;
+        }
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 15px;
+            transition: transform 0.2s;
+            color: white;
+        }
+        .btn:active {
+            transform: scale(0.95);
+        }
+        .btn-call {
+            background: linear-gradient(135deg, #2980b9, #3498db);
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+        }
+        .btn-whatsapp {
+            background: linear-gradient(135deg, #27ae60, #2ecc71);
+            box-shadow: 0 4px 15px rgba(46, 204, 113, 0.3);
+        }
+        .btn icon {
+            margin-right: 8px;
+        }
+        .footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 11px;
+            color: #94a3b8;
+            background: #f8f9fa;
+            border-top: 1px solid #edf2f7;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card-container">
+    <!-- Header Section -->
+    <div class="header-bg">
+        <div class="god-blessing">|| જય મુરલીધર ||</div>
+        <div class="brand-name">મુરલીધર ટ્રાવેલ્સ</div>
+        <div class="tagline">તમારી સુખદ અને સુરક્ષિત મુસાફરી એ જ અમારો સંકલ્પ...</div>
+    </div>
+
+    <!-- Owner Section -->
+    <div class="owner-info">
+        <div class="avatar-box">🚖</div>
+        <div class="owner-name">પાર્થ વી. પારેખ</div>
+        <div class="designation">પ્રોપ્રાઇટર / માલિક</div>
+    </div>
+
+    <!-- Vehicle Details -->
+    <div class="car-badge">
+        <div class="car-name">Maruti Suzuki Ciaz (White)</div>
+        <div class="car-desc">Full AC • લક્ઝરી સીટીંગ • પ્રીમિયમ સવારી અનુભવ</div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services-section">
+        <div class="services-title">આપણી સેવાઓ (Our Services)</div>
+        <ul class="service-list">
+            <li class="service-item"><span class="service-icon">💍</span> લગ્ન-પ્રસંગ અને ફેમિલી ફંક્શન માટે સ્પેશિયલ વર્ધી</li>
+            <li class="service-item"><span class="service-icon">✈️</span> એરપોર્ટ પિક-અપ અને ડ્રોપ સર્વિસ</li>
+            <li class="service-item"><span class="service-icon">⛰️</span> ગુજરાત તેમજ બહારના પ્રવાસન સ્થળોની ટૂર</li>
+            <li class="service-item"><span class="service-icon">🕒</span> ૨૪x૭ આપની સેવામાં હાજર (24/7 Service)</li>
+        </ul>
+    </div>
+
+    <!-- Quick Action Buttons -->
+    <div class="action-buttons">
+        <a href="tel:+919157666417" class="btn btn-call">
+            📞 ફોન કરો
+        </a>
+        <a href="https://wa.me/919157666417?text=હેલો,%20મારે%20મુરલીધર%20ટ્રાવેલ્સમાં%20વર્ધી%20માટે%20પૂછપરછ%20કરવી%20છે." target="_blank" class="btn btn-whatsapp">
+            💬 વોટ્સએપ
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        અનુભવી ડ્રાઇવિંગ સાથે સમયસર સેવા • અનુભવ જ અમારી ઓળખ છે.
+    </div>
+</div>
+
+</body>
+</html>
